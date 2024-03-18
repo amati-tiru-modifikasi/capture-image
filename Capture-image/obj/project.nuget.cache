@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOV7q6jOWr3vzxkng30/djpLqmme/mHgEE2hXXTem3LiL9kQkhtT/BjipT8CD9RKPyX+7OFieClxGa01SZXpnA==",
+  "dgSpecHash": "1aZUGPm7n6d9vaByP8+FQzZmR3IbP8rWgE6QiHdNX7j5/ORJPyI0+WF4YtEUyAg0NPQx6GneFXRAP2Z9NChcMg==",
   "success": true,
-  "projectFilePath": "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj",
+  "projectFilePath": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

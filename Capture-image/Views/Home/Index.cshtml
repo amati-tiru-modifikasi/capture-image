@@ -28,7 +28,7 @@
         })
 
         function uploadImage(image){
-            fetch('/Home/UploadeImage', {
+            fetch('/Home/UploadImage', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ imageData: image })
