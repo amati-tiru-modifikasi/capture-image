@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "tsh9BJqZjP1QeHV+5BAC4EHFExI9lrwMjK+vZPMpi3SDTgmnGQ/W5+uw8amRlxtzLyZVHD/mJLKDowD6S/brBg==",
+  "dgSpecHash": "KxdV9E29ONxOs1cYYeDMzL1mJ+GX1Lch/3HqQyqUzknltMt7yCmYE90JmxUg3PsCVBadcg1U1RS/6WjBrOil7w==",
   "success": true,
-  "projectFilePath": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.17\\microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.17\\microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.17\\microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

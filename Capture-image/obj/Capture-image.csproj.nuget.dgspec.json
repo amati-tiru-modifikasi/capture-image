@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj": {}
+    "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj": {}
   },
   "projects": {
-    "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj": {
+    "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj",
+        "projectUniqueName": "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj",
         "projectName": "Capture-image",
-        "projectPath": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\Capture-image.csproj",
+        "projectPath": "D:\\DEVS\\C#\\capture-image\\Capture-image\\Capture-image.csproj",
         "packagesPath": "C:\\Users\\HAIKAL ZIYAD SHAKA\\.nuget\\packages\\",
-        "outputPath": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\obj\\",
+        "outputPath": "D:\\DEVS\\C#\\capture-image\\Capture-image\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
