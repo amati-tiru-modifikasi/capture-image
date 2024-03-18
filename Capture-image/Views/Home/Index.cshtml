@@ -2,7 +2,46 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<video id="video" width="640" height="400" autoplay></video>
+<button id="capture">Capture</button>
+
+@section scripts{
+    <script>
+
+        var video = document.getElementById('video');
+        var canvas = document.createElement('canvas');
+        var context = canvas.getContext('2d');
+
+        navigator.mediaDevices.getUserMedia({
+            video: true
+        }).then(function (stream) {
+            video.srcObject = stream;
+            video.play();
+        }).catch(function (err) {
+            console.log(err)
+        })
+
+        document.getElementById('capture').addEventListener('click', function () {
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            var image = canvas.toDataURL();
+            uploadImage(image);
+        })
+
+        function uploadImage(image){
+            fetch('/Home/UploadeImage', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ imageData: image })
+            })
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    console.log(data);
+                })
+                .catch(function (err) {
+                    console.log(err)
+                })
+        }
+    </script>
+}
