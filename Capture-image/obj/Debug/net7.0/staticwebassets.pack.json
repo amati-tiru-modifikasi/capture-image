@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\wwwroot\\image_638464139804289735.png",
+      "PackagePath": "staticwebassets\\image_638464139804289735.png"
+    },
+    {
       "Id": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

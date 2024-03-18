@@ -23,15 +23,20 @@
 
         document.getElementById('capture').addEventListener('click', function () {
             context.drawImage(video, 0, 0, canvas.width, canvas.height);
-            var image = canvas.toDataURL();
-            uploadImage(image);
-        })
+            var imageData = canvas.toDataURL();
+            image.src = imageData;
+            image.style.display = 'block';
 
-        function uploadImage(image){
+            var data = {
+                name: 'UPLOADIMAGECAMERA',
+                age: 33,
+                imageData: canvas.toDataURL()
+            };
+
             fetch('/Home/UploadImage', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ imageData: image })
+                body: JSON.stringify(data)
             })
                 .then(function (response) {
                     return response.json();
@@ -42,6 +47,8 @@
                 .catch(function (err) {
                     console.log(err)
                 })
-        }
+            
+        })
+        
     </script>
 }

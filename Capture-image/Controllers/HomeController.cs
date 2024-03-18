@@ -23,7 +23,8 @@ namespace Capture_image.Controllers
         }
 
         // add method upload image
-        public IActionResult UploadImage(string imageData)
+        [HttpPost]
+        public IActionResult UploadImage([FromBody] ImageModel uploadData)
         {
             var fileName = $"image_{DateTime.Now.Ticks}.png";
             var filePath = Path.Combine(_environment.WebRootPath, fileName);
@@ -32,7 +33,7 @@ namespace Capture_image.Controllers
             {
                 using (var bw = new BinaryWriter(fs))
                 {
-                    var data = Convert.FromBase64String(imageData.Split(',')[1]);
+                    var data = Convert.FromBase64String(uploadData.FileName.Split(',')[1]);
                     bw.Write(data);
                     bw.Close();
                 }

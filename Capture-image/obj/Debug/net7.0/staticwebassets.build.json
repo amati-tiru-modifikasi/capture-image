@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6YRy5LGX0lP5XDUpwYxEMWE7F246ItV46g0Gb5V4aYU=",
+  "Hash": "1qZB6vIwZJjgqpwfHRTcUcWweyaqs0Y5L5ahZopNntU=",
   "Source": "Capture-image",
   "BasePath": "_content/Capture-image",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\wwwroot\\image_638464139804289735.png",
+      "SourceId": "Capture-image",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\wwwroot\\",
+      "BasePath": "_content/Capture-image",
+      "RelativePath": "image_638464139804289735.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image_638464139804289735.png"
     },
     {
       "Identity": "D:\\DEVS\\C#\\Capture-image\\Capture-image\\wwwroot\\js\\site.js",
